@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-# Initialize the LLaMA 3 model
+# Initialize the LLaMA 3 model lol
 epicModel = OllamaLLM(model="llama3.1")
 
 # Define the prompt template
