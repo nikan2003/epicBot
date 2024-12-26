@@ -50,7 +50,7 @@ Hope I will see you later & provide you with my exceptional medical knowledge.''
 
 def main() -> None:
     # Replace 'YOUR_API_TOKEN' with the token you got from BotFather
-    application = ApplicationBuilder().token("7265155611:AAHJFqcVSLkRpKAaZh0jPSxe9YlV22IWrfY").build()
+    application = ApplicationBuilder().token("epicAPI").build()
 
     # Register handlers
     application.add_handler(CommandHandler("start", start))
